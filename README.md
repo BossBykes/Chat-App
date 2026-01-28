@@ -1,4 +1,4 @@
-# 💬 Real-Time Chat Application
+# Real-Time Chat Application
 
 ## Why I Built This (Spoiler: It Wasn't for Social Media Fame)
 
@@ -6,19 +6,19 @@ Remember the days when we all used MSN Messenger and Yahoo Chat? Well, I got cur
 
 Instead of just wondering, I decided to build my own chat application from scratch using Java. No fancy frameworks, no third-party services - just pure Java sockets, networking protocols, and a lot of trial and error!
 
-## 🎯 What This App Can Do
+## What This App Can Do
 
-- **⚡ Real-time Messaging** - Send and receive messages instantly
-- **👥 Multiple Users** - Support for multiple people chatting simultaneously  
-- **😊 Emoji Support** - Because what's chat without emojis?
-- **📁 File Sharing** - Send documents, images, and other files
-- **🟢 Online Status** - See who's online and who's away
-- **🎨 Clean GUI** - User-friendly interface built with Java Swing
-- **🔒 Local Network** - Works on LAN for secure office/home communication
+- **Real-time Messaging** - Send and receive messages instantly
+- **Multiple Users** - Support for multiple people chatting simultaneously  
+- **Emoji Support** - Because what's chat without emojis?
+- **File Sharing** - Send documents, images, and other files
+- **Online Status** - See who's online and who's away
+- **Clean GUI** - User-friendly interface built with Java Swing
+- **Local Network** - Works on LAN for secure office/home communication
 
 It's basically a mini version of Discord or Slack, but built completely from scratch!
 
-## 🛠️ How I Built This
+## How I Built This
 
 **Core Technologies:**
 - **Java Sockets** - For network communication between clients and server
@@ -43,7 +43,7 @@ GUI Thread (Swing interface)
 Network Thread (Socket communication)
 ```
 
-## 🚀 The Technical Magic
+## The Technical Magic
 
 ### Server Side Logic:
 ```java
@@ -92,7 +92,7 @@ public void receiveMessages() {
 }
 ```
 
-## 📊 System Architecture
+## System Architecture
 
 ```
 [Client 1] ──┐
@@ -110,7 +110,7 @@ public void receiveMessages() {
 - File sharing with drag-and-drop support
 - Notification sounds for new messages
 
-## 😅 The Networking Nightmares I Survived
+## The Networking Nightmares I Survived
 
 **Socket Connection Issues:** Getting the client-server handshake right took forever. Kept getting "Connection refused" errors until I learned about proper port binding and firewalls.
 
@@ -122,7 +122,7 @@ public void receiveMessages() {
 
 **Message Ordering:** Sometimes messages would arrive out of order, especially during high traffic. Implemented message queuing and proper synchronization.
 
-## 🧠 What This Project Taught Me
+## What This Project Taught Me
 
 **Network Programming:**
 - **Socket Programming** - TCP/UDP protocols and client-server architecture
@@ -138,7 +138,7 @@ public void receiveMessages() {
 - **Testing & Debugging** - Network debugging and multi-user testing
 - **Performance Optimization** - Memory management and efficient data structures
 
-## 📈 Features & Performance
+## Features & Performance
 
 **Current Capabilities:**
 - Supports up to 50 concurrent users (tested locally)
@@ -154,9 +154,9 @@ public void receiveMessages() {
 - Online status indicators
 - Message history (session-based)
 
-## 🔄 Current State vs Future Dreams
+## Current State vs Future Dreams
 
-**✅ What Works Now:**
+**What Works Now:**
 - Real-time text messaging
 - Multiple user support
 - File and image sharing
@@ -164,7 +164,7 @@ public void receiveMessages() {
 - Clean, responsive GUI
 - Local network deployment
 
-**🚀 Future Enhancements:**
+**Future Enhancements:**
 - [ ] End-to-end encryption for security
 - [ ] Message persistence (database storage)
 - [ ] Voice and video calling
@@ -174,7 +174,7 @@ public void receiveMessages() {
 - [ ] Rich text formatting and themes
 - [ ] Integration with external services (email, calendar)
 
-## 💭 Real-World Applications
+## Real-World Applications
 
 While this started as a learning project, the concepts apply to:
 
@@ -187,7 +187,7 @@ While this started as a learning project, the concepts apply to:
 
 The networking and multithreading skills from this project directly translate to building scalable distributed systems!
 
-## 🎓 Technical Skills Demonstrated
+## Technical Skills Demonstrated
 
 **Core Computer Science:**
 - Network programming and socket communication
@@ -203,7 +203,7 @@ The networking and multithreading skills from this project directly translate to
 - Testing with multiple users and edge cases
 - Performance optimization and memory management
 
-## 🏷️ Technologies Used
+## Technologies Used
 
 `Java` `Socket-Programming` `Java-Swing` `Multithreading` `Network-Programming` `GUI-Development` `File-Transfer` `Real-Time-Communication` `Client-Server-Architecture`
 
