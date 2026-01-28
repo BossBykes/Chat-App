@@ -209,6 +209,6 @@ The networking and multithreading skills from this project directly translate to
 
 ---
 
-**Built with Java, countless Stack Overflow searches, and a stubborn refusal to use existing chat libraries 💻**
+**Built with Java, countless Stack Overflow searches, and a stubborn refusal to use existing chat libraries**
 
 *This project was my introduction to the fascinating world of network programming. Every time I use Discord, Slack, or WhatsApp now, I think "I know how this works under the hood!" There's something magical about building communication software that actually connects people across networks.*
